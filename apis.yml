@@ -1,0 +1,74 @@
+aid: crv
+name: CRV
+description: >-
+  CRV (formerly Charles River Ventures) is one of the oldest venture capital
+  firms in the United States, founded in 1970 to commercialize research coming
+  out of MIT. The firm invests early — primarily at the Seed and Series A stages,
+  with occasional Series B — leading rounds in enterprise, consumer, developer
+  tools, security, data infrastructure, AI, and bioengineering companies. CRV
+  has backed more than 750 companies since inception across 18 funds, raising
+  over $4.3 billion (including a recent $600M early-stage fund), and has seen
+  80-plus of its portfolio companies reach public-company status. Notable
+  investments include DoorDash, Airtable, HubSpot, Datadog, Zendesk, Patreon,
+  Mercury, Vercel, Cursor, Postman, Kong, Tailscale, Ring, and PillPack. The
+  firm is headquartered in San Francisco (52 Zoe Street) with a long-standing
+  Bay Area presence and offices in Menlo Park, CA and Cambridge, MA.
+image: https://www.crv.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Developer Tools
+  - Security
+  - AI
+  - Enterprise
+  - Consumer
+  - Biotech
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://www.crv.com/
+  - type: Portfolio
+    url: https://www.crv.com/companies
+  - type: Portfolio
+    url: portfolio/crv-portfolio.yml
+  - type: Team
+    url: https://www.crv.com/team
+  - type: Team
+    url: team/crv-team.yml
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/crvvc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/crvvc
+  - type: Twitter
+    url: https://x.com/crv
+  - type: Features
+    data:
+      - 'Stage: Seed, Series A (occasional Series B)'
+      - 'Sectors: enterprise, consumer, developer tools, security, data infrastructure, AI, bioengineering'
+      - 'Geography: North America (Bay Area focus)'
+      - 'Companies backed: 750+ since 1970'
+      - 'Public companies: 80+'
+      - 'Capital raised: $4.3B+ across 18 funds'
+      - 'Latest fund: $600M early-stage'
+      - 'Founded: 1970'
+      - 'HQ: San Francisco, CA (offices in Menlo Park, CA and Cambridge, MA)'
+    sources:
+      - https://www.crv.com/
+      - https://en.wikipedia.org/wiki/CRV_(venture_capital_firm)
+      - https://news.crunchbase.com/venture/crv-closes-600m-early-stage-fund/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: CRV
+    url: https://www.crv.com/
