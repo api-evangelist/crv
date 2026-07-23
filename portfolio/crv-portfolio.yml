@@ -3,9 +3,9 @@ method: searched
 source: https://www.crv.com/companies
 summary:
   portfolio_total: 155
-  in_network: 67
-  api_providers: 49
-  missing: 88
+  in_network: 155
+  api_providers: 68
+  missing: 0
   stubs_created: 0
 companies:
 - name: 3T Biosciences
@@ -13,9 +13,10 @@ companies:
   sector: biotech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 3t-biosciences
+  slug: 3t-biosciences
+  matched_by: domain
 - name: 7AI
   url: https://7ai.com/
   sector: security
@@ -24,15 +25,16 @@ companies:
   slug: 7ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Accompany
   url: https://www.accompany.com/
   sector: enterprise
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: accompany
+  slug: accompany
+  matched_by: domain
 - name: Aerodome
   url: https://www.aerodome.com/
   sector: drones
@@ -41,7 +43,7 @@ companies:
   slug: aerodome
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Affirmed Networks
   url: https://www.affirmednetworks.com/
   sector: telecom-infrastructure
@@ -50,7 +52,7 @@ companies:
   slug: affirmed-networks
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Airtable
   url: https://www.airtable.com/
   sector: developer-tools
@@ -65,42 +67,46 @@ companies:
   sector: developer-tools
   status: unknown
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: alice
+  in_network: true
+  is_api_provider: true
+  slug: alice
+  matched_by: domain
 - name: Apex
   url: https://www.apexspace.com/
   sector: space
   status: active
   source: https://www.crv.com/companies
-  slug: apex
+  slug: apex-space
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Arena
   url: https://arena.im/
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arena
+  slug: arena
+  matched_by: domain
 - name: Astrix Security
   url: https://astrix.security/
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astrix-security
+  slug: astrix
+  matched_by: domain
 - name: Aviatrix
   url: https://aviatrix.ai/
   sector: infrastructure
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aviatrix
+  slug: aviatrix
+  matched_by: domain
 - name: Axiom
   url: https://www.axi.om/
   sector: developer-tools
@@ -115,9 +121,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bettermode
+  slug: bettermode
+  matched_by: domain
 - name: Bird
   url: https://www.bird.co/
   sector: micromobility
@@ -150,33 +157,37 @@ companies:
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cable
+  in_network: true
+  is_api_provider: true
+  slug: cable
+  matched_by: domain
 - name: Capy
   url: https://capy.ai/
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: capy
+  in_network: true
+  is_api_provider: true
+  slug: capy
+  matched_by: domain
 - name: Careforce
   url: https://careforce.ai/
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: careforce
+  slug: careforce
+  matched_by: domain
 - name: Carrot
   url: https://www.get-carrot.com/
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carrot
+  slug: carrot-fertility
+  matched_by: domain
 - name: Checkly
   url: https://www.checklyhq.com/
   sector: developer-tools
@@ -200,9 +211,10 @@ companies:
   sector: sales
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ciro
+  slug: ciro
+  matched_by: domain
 - name: ClassPass
   url: https://classpass.com/
   sector: consumer
@@ -226,9 +238,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: closure
+  slug: closure
+  matched_by: domain
 - name: CodeRabbit
   url: https://www.coderabbit.ai/
   sector: developer-tools
@@ -243,34 +256,37 @@ companies:
   sector: data
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: collate
+  in_network: true
+  is_api_provider: true
+  slug: collate
+  matched_by: domain
 - name: Color
   url: https://www.color.com/
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  slug: color-genomics
+  slug: color
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Concourse
   url: https://www.concourse.co/
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: concourse
+  slug: concourse
+  matched_by: domain
 - name: Cratejoy
   url: https://www.cratejoy.com/
   sector: ecommerce
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cratejoy
+  slug: cratejoy
+  matched_by: domain
 - name: Cribl
   url: https://cribl.io/
   sector: data
@@ -306,7 +322,7 @@ companies:
   slug: cyera
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Datadog
   url: https://www.datadoghq.com/
   sector: developer-tools
@@ -321,9 +337,10 @@ companies:
   sector: data
   status: unknown
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datum
+  slug: datum
+  matched_by: domain
 - name: DoorDash
   url: https://www.doordash.com/
   sector: consumer
@@ -347,25 +364,28 @@ companies:
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dyna
+  slug: dyna
+  matched_by: domain
 - name: Exo Therapeutics
   url: https://exo-therapeutics.com/
   sector: biotech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exo-therapeutics
+  slug: exo-therapeutics
+  matched_by: domain
 - name: Emotive
   url: https://emotive.io/
   sector: marketing
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emotive
+  slug: emotive
+  matched_by: domain
 - name: Encord
   url: https://encord.com/
   sector: ai
@@ -380,9 +400,10 @@ companies:
   sector: data
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eventual
+  slug: eventual
+  matched_by: domain
 - name: Factorial
   url: https://factorialhr.com/
   sector: hr
@@ -406,41 +427,46 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fleet
+  in_network: true
+  is_api_provider: true
+  slug: fleet
+  matched_by: domain
 - name: Flipturn
   url: https://www.getflipturn.com/
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: flipturn
+  in_network: true
+  is_api_provider: true
+  slug: flipturn
+  matched_by: domain
 - name: Flock Safety
   url: https://www.flocksafety.com/
   sector: public-safety
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: flock-safety
+  in_network: true
+  is_api_provider: true
+  slug: flock-safety
+  matched_by: domain
 - name: FlutterFlow
   url: https://www.flutterflow.io/
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flutterflow
+  slug: flutterflow
+  matched_by: domain
 - name: Freenome
   url: https://www.freenome.com/
   sector: biotech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freenome
+  slug: freenome
+  matched_by: domain
 - name: Fulcrum
   url: https://www.withfulcrum.com/
   sector: consumer
@@ -455,9 +481,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: givers
+  slug: givers
+  matched_by: domain
 - name: Gorgias
   url: https://www.gorgias.com/
   sector: ecommerce
@@ -499,9 +526,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hadrius
+  slug: hadrius
+  matched_by: domain
 - name: HubSpot
   url: https://www.hubspot.com/
   sector: marketing
@@ -516,17 +544,19 @@ companies:
   sector: telecom-infrastructure
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ibasis
+  slug: ibasis
+  matched_by: domain
 - name: Impart Security
   url: https://www.impart.ai/
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: impart-security
+  slug: impart-security
+  matched_by: domain
 - name: Inworld AI
   url: https://inworld.ai/
   sector: ai
@@ -550,33 +580,37 @@ companies:
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jeeves
+  slug: jeeves
+  matched_by: domain
 - name: Joyful
   url: https://www.joyfulhealth.com/
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joyful
+  slug: joyful
+  matched_by: domain
 - name: Juxta
   url: https://www.juxta.com/
   sector: unknown
   status: unknown
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juxta
+  slug: juxta
+  matched_by: domain
 - name: Kapwing
   url: https://www.kapwing.com/
   sector: media
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kapwing
+  slug: kapwing
+  matched_by: domain
 - name: Ketch
   url: https://www.ketch.com/
   sector: privacy
@@ -600,9 +634,10 @@ companies:
   sector: autonomous-vehicles
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kodiak-robotics
+  slug: kodiak
+  matched_by: domain
 - name: Kong
   url: https://konghq.com/
   sector: developer-tools
@@ -626,9 +661,10 @@ companies:
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legit-security
+  slug: legit-security
+  matched_by: domain
 - name: Lokalise
   url: https://lokalise.com/
   sector: developer-tools
@@ -652,9 +688,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lotus
+  slug: lotus
+  matched_by: domain
 - name: Luma AI
   url: https://lumalabs.ai/
   sector: ai
@@ -696,17 +733,19 @@ companies:
   sector: consumer
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mileiq
+  in_network: true
+  is_api_provider: true
+  slug: mileiq
+  matched_by: domain
 - name: Napkin
   url: https://www.napkin.ai/
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: napkin
+  in_network: true
+  is_api_provider: true
+  slug: napkin
+  matched_by: domain
 - name: Netezza
   url: https://www.ibm.com/
   sector: data
@@ -721,9 +760,10 @@ companies:
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: niantic
+  slug: niantic
+  matched_by: domain
 - name: Nobl9
   url: https://www.nobl9.com/
   sector: developer-tools
@@ -738,25 +778,28 @@ companies:
   sector: real-estate
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: northspyre
+  slug: northspyre
+  matched_by: domain
 - name: Oak
   url: https://www.oak.id/
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oak
+  slug: oak
+  matched_by: domain
 - name: Omen
   url: https://www.omen.ai/
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omen
+  slug: omen
+  matched_by: domain
 - name: OneLogin
   url: https://www.onelogin.com/
   sector: security
@@ -771,33 +814,37 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oportun
+  slug: oportun
+  matched_by: domain
 - name: Osmosis
   url: https://osmosis.ai/
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: osmosis
+  in_network: true
+  is_api_provider: true
+  slug: osmosis
+  matched_by: domain
 - name: Outtake
   url: https://outtake.ai/
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outtake
+  slug: outtake
+  matched_by: domain
 - name: Parabol
   url: https://www.parabol.co/
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parabol
+  slug: parabol
+  matched_by: domain
 - name: Patreon
   url: https://www.patreon.com/
   sector: consumer
@@ -812,33 +859,37 @@ companies:
   sector: unknown
   status: unknown
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periodic
+  slug: periodic
+  matched_by: domain
 - name: PillPack
   url: https://www.pillpack.com/
   sector: healthcare
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pillpack
+  slug: pillpack
+  matched_by: domain
 - name: Pilot
   url: https://pilot.com/
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pilot
+  slug: pilot
+  matched_by: domain
 - name: Plexium
   url: https://plexium.com/
   sector: biotech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plexium
+  slug: plexium
+  matched_by: domain
 - name: Postman
   url: https://www.postman.com/
   sector: developer-tools
@@ -853,23 +904,25 @@ companies:
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: power
+  slug: power
+  matched_by: domain
 - name: Power
   url: https://usepower.com/
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: power
+  slug: power
+  matched_by: name-slug
 - name: ProjectDiscovery
   url: https://projectdiscovery.io/
   sector: security
   status: active
   source: https://www.crv.com/companies
-  slug: nuclei
+  slug: projectdiscovery
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -878,17 +931,19 @@ companies:
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: protege
+  slug: protege
+  matched_by: domain
 - name: Proton
   url: https://proton.me/
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proton
+  slug: proton
+  matched_by: name-slug
 - name: Pulley
   url: https://www.withpulley.com/
   sector: fintech
@@ -903,31 +958,34 @@ companies:
   sector: data
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qubole
+  slug: qubole
+  matched_by: domain
 - name: RPX
   url: https://www.rpxcorp.com/
   sector: enterprise
   status: ipo
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rpx
+  slug: rpx
+  matched_by: domain
 - name: RecappED
   url: https://www.recapped.io/
   sector: sales
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recapped
+  slug: recapped
+  matched_by: domain
 - name: Recursion
   url: https://www.recursion.com/
   sector: biotech
   status: ipo
   source: https://www.crv.com/companies
-  slug: exscientia
+  slug: recursion
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -936,63 +994,70 @@ companies:
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reflection-ai
+  slug: reflection
+  matched_by: domain
 - name: Release
   url: https://release.com/
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: release
+  in_network: true
+  is_api_provider: true
+  slug: release
+  matched_by: domain
 - name: Resilience
   url: https://cyberresilience.com/
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resilience
+  slug: resilience
+  matched_by: name-slug
 - name: ResortPass
   url: https://www.resortpass.com/
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resortpass
+  slug: resortpass
+  matched_by: domain
 - name: Ring
   url: https://ring.com/
   sector: consumer
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ring
+  slug: ring
+  matched_by: domain
 - name: Sales Patriot
   url: https://salespatriot.com/
   sector: sales
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sales-patriot
+  slug: sales-patriot
+  matched_by: domain
 - name: Scanner
   url: https://scanner.dev/
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scanner
+  in_network: true
+  is_api_provider: true
+  slug: scanner
+  matched_by: domain
 - name: Scribd
   url: https://www.scribd.com/
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  slug: cargowise
+  slug: scribd
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1010,17 +1075,19 @@ companies:
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shef
+  slug: shef
+  matched_by: domain
 - name: Signal Sciences
   url: https://www.signalsciences.com/
   sector: security
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: signal-sciences
+  slug: signal-sciences
+  matched_by: domain
 - name: SignalFx
   url: https://www.splunk.com/
   sector: developer-tools
@@ -1035,9 +1102,10 @@ companies:
   sector: sales
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: siro
+  in_network: true
+  is_api_provider: true
+  slug: siro
+  matched_by: domain
 - name: Skild AI
   url: https://www.skild.ai/
   sector: robotics
@@ -1061,41 +1129,46 @@ companies:
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: squire
+  slug: squire
+  matched_by: domain
 - name: Standard AI
   url: https://standard.ai/
   sector: retail
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-ai
+  slug: standard-ai
+  matched_by: domain
 - name: ST Labs
   url: https://stlabs.com/
   sector: unknown
   status: unknown
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: st-labs
+  slug: st-labs
+  matched_by: domain
 - name: StarTree
   url: https://startree.ai/
   sector: data
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: startree
+  in_network: true
+  is_api_provider: true
+  slug: startree
+  matched_by: domain
 - name: Storyboard
   url: https://storyboard.com/
   sector: media
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: storyboard
+  slug: storyboard
+  matched_by: domain
 - name: Strapi
   url: https://strapi.io/
   sector: developer-tools
@@ -1110,9 +1183,10 @@ companies:
   sector: biotech
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: switch-therapeutics
+  slug: switch-therapeutics
+  matched_by: domain
 - name: Tailscale
   url: https://tailscale.com/
   sector: developer-tools
@@ -1136,9 +1210,10 @@ companies:
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: taste
+  in_network: true
+  is_api_provider: true
+  slug: taste
+  matched_by: domain
 - name: Tavus
   url: https://www.tavus.io/
   sector: ai
@@ -1153,17 +1228,19 @@ companies:
   sector: robotics
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theker
+  slug: theker
+  matched_by: domain
 - name: Thesis
   url: https://thesiscare.com/
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thesis
+  slug: thesis
+  matched_by: domain
 - name: Tinybird
   url: https://www.tinybird.co/
   sector: data
@@ -1187,17 +1264,19 @@ companies:
   sector: security
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upstream-security
+  slug: upstream-security
+  matched_by: domain
 - name: Vega
   url: https://vega.io/
   sector: developer-tools
   status: unknown
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vega
+  slug: vega
+  matched_by: domain
 - name: Vercel
   url: https://vercel.com/
   sector: developer-tools
@@ -1212,25 +1291,28 @@ companies:
   sector: media
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: viki
+  slug: viki
+  matched_by: domain
 - name: Virtusa
   url: https://www.virtusa.com/
   sector: enterprise
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virtusa
+  slug: virtusa
+  matched_by: domain
 - name: Viz.ai
   url: https://www.viz.ai/
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vizai
+  slug: vizai
+  matched_by: domain
 - name: Voyage AI
   url: https://www.voyageai.com/
   sector: ai
@@ -1254,41 +1336,46 @@ companies:
   sector: healthcare
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wheel
+  slug: wheel
+  matched_by: domain
 - name: Wildtype
   url: https://www.wildtypefoods.com/
   sector: food
   status: active
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wildtype
+  slug: wildtype
+  matched_by: domain
 - name: Wish
   url: https://www.wish.com/
   sector: ecommerce
   status: ipo
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wish
+  in_network: true
+  is_api_provider: true
+  slug: wish
+  matched_by: domain
 - name: Wonderment
   url: https://www.wonderment.com/
   sector: ecommerce
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wonderment
+  in_network: true
+  is_api_provider: true
+  slug: wonderment
+  matched_by: domain
 - name: Workstream
   url: https://www.workstream.us/
   sector: hr
   status: active
   source: https://www.crv.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: workstream
+  in_network: true
+  is_api_provider: true
+  slug: workstream
+  matched_by: domain
 - name: Zendesk
   url: https://www.zendesk.com/
   sector: enterprise
@@ -1303,9 +1390,10 @@ companies:
   sector: infrastructure
   status: acquired
   source: https://www.crv.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zerto
+  slug: zerto
+  matched_by: domain
 - name: Zip
   url: https://ziphq.com/
   sector: fintech

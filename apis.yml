@@ -13,6 +13,17 @@ description: >-
   Mercury, Vercel, Cursor, Postman, Kong, Tailscale, Ring, and PillPack. The
   firm is headquartered in San Francisco (52 Zoe Street) with a long-standing
   Bay Area presence and offices in Menlo Park, CA and Cambridge, MA.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.crv.com/favicon.ico
 created: '2026-07-17'
 modified: '2026-07-17'
