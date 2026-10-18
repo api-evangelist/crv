@@ -1,4 +1,46 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: crv
-leads: []
+leads:
+- name: Axiom
+  url: https://www.axi.om/
+  suggested_slug: axi-om
+  sector: developer-tools
+  source_vc: crv
+  source: https://www.crv.com/companies
+  stub_created: false
+- name: Fauna
+  url: https://faunadb.org/
+  suggested_slug: faunadb-org
+  sector: developer-tools
+  source_vc: crv
+  source: https://www.crv.com/companies
+  stub_created: false
+- name: Fulcrum
+  url: https://www.withfulcrum.com/
+  suggested_slug: withfulcrum-com
+  sector: consumer
+  source_vc: crv
+  source: https://www.crv.com/companies
+  stub_created: false
+- name: Power
+  url: https://usepower.com/
+  suggested_slug: usepower-com
+  sector: fintech
+  source_vc: crv
+  source: https://www.crv.com/companies
+  stub_created: false
+- name: Proton
+  url: https://proton.me/
+  suggested_slug: proton
+  sector: consumer
+  source_vc: crv
+  source: https://www.crv.com/companies
+  stub_created: false
+- name: Pulley
+  url: https://www.withpulley.com/
+  suggested_slug: withpulley-com
+  sector: fintech
+  source_vc: crv
+  source: https://www.crv.com/companies
+  stub_created: false

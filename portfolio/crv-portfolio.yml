@@ -3,9 +3,9 @@ method: searched
 source: https://www.crv.com/companies
 summary:
   portfolio_total: 155
-  in_network: 155
-  api_providers: 68
-  missing: 0
+  in_network: 149
+  api_providers: 67
+  missing: 6
   stubs_created: 0
 companies:
 - name: 3T Biosciences
@@ -49,7 +49,7 @@ companies:
   sector: telecom-infrastructure
   status: acquired
   source: https://www.crv.com/companies
-  slug: affirmed-networks
+  slug: affirmed
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -96,7 +96,7 @@ companies:
   source: https://www.crv.com/companies
   in_network: true
   is_api_provider: false
-  slug: astrix
+  slug: astrix-security
   matched_by: domain
 - name: Aviatrix
   url: https://aviatrix.ai/
@@ -112,10 +112,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  slug: axiom
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: axiom
+  suggested_slug: axi-om
 - name: Bettermode
   url: https://bettermode.com/
   sector: developer-tools
@@ -139,7 +139,7 @@ companies:
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  slug: blockchain
+  slug: blockchain.com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -186,7 +186,7 @@ companies:
   source: https://www.crv.com/companies
   in_network: true
   is_api_provider: false
-  slug: carrot-fertility
+  slug: carrot
   matched_by: domain
 - name: Checkly
   url: https://www.checklyhq.com/
@@ -229,7 +229,7 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.crv.com/companies
-  slug: clerk
+  slug: clerk-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -366,7 +366,7 @@ companies:
   source: https://www.crv.com/companies
   in_network: true
   is_api_provider: false
-  slug: dyna
+  slug: dyna-robotics
   matched_by: domain
 - name: Exo Therapeutics
   url: https://exo-therapeutics.com/
@@ -383,7 +383,7 @@ companies:
   status: active
   source: https://www.crv.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: emotive
   matched_by: domain
 - name: Encord
@@ -418,10 +418,10 @@ companies:
   sector: developer-tools
   status: dead
   source: https://www.crv.com/companies
-  slug: fauna
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: fauna
+  suggested_slug: faunadb-org
 - name: Fleet
   url: https://fleetdm.com/
   sector: developer-tools
@@ -472,10 +472,10 @@ companies:
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  slug: fulcrum
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: fulcrum
+  suggested_slug: withfulcrum-com
 - name: Givers
   url: https://www.givers.com/
   sector: healthcare
@@ -616,9 +616,9 @@ companies:
   sector: privacy
   status: active
   source: https://www.crv.com/companies
-  slug: ketch-com
+  slug: ketch-io
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Koala
   url: https://getkoala.com/
@@ -697,7 +697,7 @@ companies:
   sector: ai
   status: active
   source: https://www.crv.com/companies
-  slug: luma-ai
+  slug: luma-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -861,7 +861,7 @@ companies:
   source: https://www.crv.com/companies
   in_network: true
   is_api_provider: false
-  slug: periodic
+  slug: periodic-labs
   matched_by: domain
 - name: PillPack
   url: https://www.pillpack.com/
@@ -913,10 +913,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: power
-  matched_by: name-slug
+  x-name-collision: power
+  suggested_slug: usepower-com
 - name: ProjectDiscovery
   url: https://projectdiscovery.io/
   sector: security
@@ -940,19 +940,18 @@ companies:
   sector: consumer
   status: active
   source: https://www.crv.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: proton
-  matched_by: name-slug
+  suggested_slug: proton
 - name: Pulley
   url: https://www.withpulley.com/
   sector: fintech
   status: active
   source: https://www.crv.com/companies
-  slug: pulley
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: pulley
+  suggested_slug: withpulley-com
 - name: Qubole
   url: https://www.qubole.com/
   sector: data
@@ -985,7 +984,7 @@ companies:
   sector: biotech
   status: ipo
   source: https://www.crv.com/companies
-  slug: recursion
+  slug: exscientia
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1014,8 +1013,8 @@ companies:
   source: https://www.crv.com/companies
   in_network: true
   is_api_provider: false
-  slug: resilience
-  matched_by: name-slug
+  slug: arceo-labs
+  matched_by: domain
 - name: ResortPass
   url: https://www.resortpass.com/
   sector: consumer
@@ -1275,7 +1274,7 @@ companies:
   source: https://www.crv.com/companies
   in_network: true
   is_api_provider: false
-  slug: vega
+  slug: vega-security
   matched_by: domain
 - name: Vercel
   url: https://vercel.com/
